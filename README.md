@@ -28,29 +28,40 @@ Reference band =  gU
 Band to be calculated =  gM
 
  Lets check on the status of things .... 
+ 
 band1 =  gU   band2 =  gM   cband =  rM
 
 mdn =  0.026
 
 Initial parameter values:   [0.025999999999999801, 0.0]
+
 Converged
-Converged with chi squared  0.0525854897245 <type 'numpy.float64'>
-degrees of freedom, dof  93 <type 'int'>
+
+Converged with chi squared  0.0525854897245 
+
+degrees of freedom, dof  93 
+
 RMS of residuals (i.e. sqrt(chisq/dof))  0.0237788850323
+
 Reduced chisq (i.e. variance of residuals)  0.000565435373381
 
 Fitted parameters at minimum, with 68% C.I.:
+
 a               0.027529 +/-    0.00871078   (31.642225 percent)
+
 k           -0.000111846 +/-     0.0122523   (10954.683792 percent)
 
 
 Correlation matrix:
-                a          k         
+                a          k    
+                
 a            1.000000
+
 k           -0.959978   1.000000
 
 
 Your fit equation is:
+
    gU - gM = 0.028 + -0.00011*(gM-rM)
 
 Outputting QA plot qa-keplerFinal.csv_color.gM-band.png
